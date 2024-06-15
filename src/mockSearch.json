@@ -1,0 +1,320 @@
+{
+  "success": true,
+  "data": {
+    "offset": 0,
+    "total": 2098,
+    "next": 20,
+    "data": [
+      {
+        "paperId": "0d70e402d37d7519d95a06e76351ee6330790846",
+        "title": "ANALISIS KINERJA PERSONEL FLIGHT OPERATIONS OFFICER (FOO) PT. GAPURA ANGKASA TERHADAP KESELAMATAN PENERBANGAN DI BANDAR UDARA INTERNASIONAL YOGYA KARTA",
+        "year": 2023,
+        "authors": [
+          { "name": "M. Ryan Prawira Negara", "authorId": "2280266136" },
+          { "name": "Awan", "authorId": "2176590265" }
+        ],
+        "abstract": "Keselamatan penerbangan merupakan  suatu  hal  yang  sangat  penting dalam sebuah penerbangan, ataubisa dikatakan bahwa keselamatan penerbangan adalah kondisi  suatu  penerbangan yang berjalan dengan lancar dan aman dari stasiun keberangkatan hingga tiba di stasiun tujuan. Termasuk personel Flight Operations Officer yang dalam hal ini harus memperhatikan aspek keselamatan dan keamanan dalam suatu penerbangan, sehingga personel FOO dituntut untuk memiliki ketelitian dan kedisiplinan  dalam  melakukan  tugas  dan  tanggung jawabnya agar suatupenerbangan dapat berjalan dengan selamat dan aman. Metode penelitian kualitatif digunakan dalam penelitian ini. Wawancara dan observasi partisipan digunakan sebagai data primer, dan data yang didapat dari kantor operations PT Gapura Angkasa Yogyakarta beserta dokumentasi digunakan sebagai data sekunder dalam penelitian ini, selain itu informasi dari publikasi ilmiah, artikel atau penelitian terdahulu yang berkaitan dengan penelitian yang dilakukan oleh peneliti digunakan sebagai data sekunder dalam penelitian ini. Teknik analisis data dalam penelitian ini menggunakan reduksi data, penyajian data dan penarikan kesimpulan. Berdasarkan data yang didapat dari penelitian ini yang berjudul Kinerja personel Flight Operations Officer (FOO) terhadap keselamatan penerbangan di Bandar Udara Internasional Yogyakarta bahwasannya personel FOO di lapangan sudah melakukan pekerjaanya dengan baik dalam memberikan pelayanankepada suatu penerbangan yang  ditanganinya, baik berupa pemberian informasi  data flight plan,  information weather,  notam-notam  dan  briefing  sudah  dilakukan dengan  baik  ,  namun juga  dalam  penelitian  ini  ditemukan  adanya  beberapa kendala  yang  personel  temui  di  lapangan  yaitu  keterbatasan  SDM  dan juga keterbatasan  sarana  dan pra-sarana  lainnya,  seperti  Jaringan  internet,  supplai kertas, tinta, printer dan komputer yang kerap menjadi hambatan bagi personel FOO yang akan bekerja di lapangan.",
+        "venue": "Jurnal Manajemen Dirgantara",
+        "url": "https://www.semanticscholar.org/paper/0d70e402d37d7519d95a06e76351ee6330790846",
+        "citationCount": 1,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "86786b4ef109bb8723d45a47ef97a47d8134779a",
+        "title": "First person – Sherman Foo",
+        "year": 2023,
+        "authors": [],
+        "abstract": "\n First Person is a series of interviews with the first authors of a selection of papers published in Journal of Cell Science, helping researchers promote themselves alongside their papers. Sherman Foo is first author on ‘ Diacylglycerol at the inner nuclear membrane fuels nuclear envelope expansion in closed mitosis’, published in JCS. Sherman conducted the research described in this article while a PhD student in the labs of Snezhana Oliferenko (The Francis Crick Institute, London, UK, and Randall Centre for Cell and Molecular Biophysics, King's College London, UK) and Markus R. Wenk (Singapore Lipidomics Incubator, National University of Singapore). He is now a postdoc in the lab of Buzz Baum at Medical Research Council Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, UK, where he is currently studying cellular organization of hyperthermophilic archaea, with a particular focus on the surface layer and cell cycle of Sulfolobus acidocaldarius.",
+        "venue": "Journal of Cell Science",
+        "url": "https://www.semanticscholar.org/paper/86786b4ef109bb8723d45a47ef97a47d8134779a",
+        "citationCount": 0,
+        "referenceCount": 1
+      },
+      {
+        "paperId": "f0e867176fbd6835a1e7603dd11c11a124f32965",
+        "title": "FOO: An Upper-Level Ontology for the Forest Observatory",
+        "year": 2023,
+        "authors": [
+          { "name": "Naeima Hamed", "authorId": "2111984533" },
+          { "name": "Omer F. Rana", "authorId": "144024945" },
+          { "name": "B. Goossens", "authorId": "2001277" },
+          { "name": "P. O. Wengel", "authorId": "115172042" },
+          { "name": "Charith Perera", "authorId": "2121000333" }
+        ],
+        "abstract": null,
+        "venue": "Extended Semantic Web Conference",
+        "url": "https://www.semanticscholar.org/paper/f0e867176fbd6835a1e7603dd11c11a124f32965",
+        "citationCount": 0,
+        "referenceCount": 7
+      },
+      {
+        "paperId": "b62269cab82feab239ec8f2084899b07116944d0",
+        "title": "The effect of duration of therapy for treatment of Staphylococcus aureus blood stream infection: an application of cloning to deal with immortal-time bias in an analysis of data from a cohort study (BSI-FOO)",
+        "year": 2022,
+        "authors": [
+          { "name": "Rebecca N. Evans", "authorId": "1670240065" },
+          { "name": "J. Harris", "authorId": "50505285" },
+          { "name": "C. Rogers", "authorId": "32679540" },
+          { "name": "A. Macgowan", "authorId": "5471500" }
+        ],
+        "abstract": "Abstract Objective To estimate the effect of treatment duration on in-hospital mortality in patients with Staphylococcus aureus blood stream infection and demonstrate the biases that can arise when immortal-time bias is ignored. Exposure We compared three treatment strategies: short therapy (<10 days), intermediate (10–18 days) and long (>18 days). Main outcome measures Twenty-eight-day all-cause in-hospital mortality. Methods Using data from the BSI-FOO study, we implemented an approach proposed by Hernán to overcome confounding and immortal-time biases. The first stage is to clone all participants, so that each participant is assigned to each treatment strategy. Second, observations are censored when their data becomes inconsistent with their assigned strategy. Finally, inverse-probability weights are applied to adjust for potential selection. We compared our results to a naïve approach where immortal-time bias is ignored. Results Of the 1903 participants in BSI-FOO, 587 were eligible and included in the analysis. After cloning, the weighted estimates of hazard ratio of mortality for short versus long therapy was 1.74 (95% CI 1.36, 2.24) and for intermediate versus long therapy was 1.09 (0.98, 1.22). In the naïve approach, the hazard ratios with reference to the long therapy group are 37.4 (95% CI 18.9 to 74.4) in the short therapy group and 4.1 (95% CI 1.9 to 8.9) in the intermediate therapy group. Conclusions Our findings suggest that duration of therapy >18 days is beneficial with respect to 28-day in-hospital mortality, however, there remains uncertainty around the efficacy of reducing duration of treatment to 10–18 days.",
+        "venue": "Journal of Antimicrobial Chemotherapy",
+        "url": "https://www.semanticscholar.org/paper/b62269cab82feab239ec8f2084899b07116944d0",
+        "citationCount": 3,
+        "referenceCount": 17
+      },
+      {
+        "paperId": "c3e1cf6a6fcb6f010ac42cdae8e61f292124365c",
+        "title": "Ultrasound-alkaline combined extraction improves the release of bound polyphenols from pitahaya (Hylocereus undatus 'Foo-Lon') peel: Composition, antioxidant activities and enzyme inhibitory activity",
+        "year": 2022,
+        "authors": [
+          { "name": "Xuanyu Zhong", "authorId": "3050851" },
+          { "name": "Shuyan Zhang", "authorId": "2155153049" },
+          { "name": "Hao Wang", "authorId": "48016595" },
+          { "name": "Jinyi Yang", "authorId": "65950500" },
+          { "name": "Lin Li", "authorId": "2155690762" },
+          { "name": "Jie Zhu", "authorId": "145296846" },
+          { "name": "Yujia Liu", "authorId": "2048761899" }
+        ],
+        "abstract": null,
+        "venue": "Ultrasonics sonochemistry",
+        "url": "https://www.semanticscholar.org/paper/c3e1cf6a6fcb6f010ac42cdae8e61f292124365c",
+        "citationCount": 13,
+        "referenceCount": 51
+      },
+      {
+        "paperId": "a8c20b4036843f1c501aafe415aa4f0ad1147f44",
+        "title": "Pengaruh On The Job Training (OJT) Flight Operations Officer (FOO) Terhadap Kesiapan Kerja",
+        "year": 2022,
+        "authors": [
+          { "name": "Marsel Rionaldo Lubis", "authorId": "2167957295" }
+        ],
+        "abstract": "Petugas Flight Operations Officer (FOO) sebelum mendapakan license wajib melaksanakan kegiatan On The Job Training (OJT) di maskapai penerbangan. Penelitian ini bertujuan untuk menganalisis pengaruh OJT petugas FOO terhadap kesiapan kerja. Sampel pada penelitian ini berjumlah 22 responden yang merupakan peserta dikalt FOO API Banyuwangi menggunakan purposive sampling (sampel bertujuan). Penelitian menggunakan metode deskriptif. Instrumen penelitian menggunakan kuesioner yang terdiri dari 10 pernyataan yang diukur menggunakan skala likert. Pengolahan data dilakukan secara statistik. Hasil penelitian ini menyimpulkan bahwa Pelaksanaan kegiatan On the Job Training (OJT) dapat meningkatkan kemampuan, keahlian, sikap, komunikasi, kepemimpinan dan kerjasama seorang FOO sehingga dapat memiliki kesiapan kerja.",
+        "venue": "SKYHAWK : Jurnal Aviasi Indonesia",
+        "url": "https://www.semanticscholar.org/paper/a8c20b4036843f1c501aafe415aa4f0ad1147f44",
+        "citationCount": 2,
+        "referenceCount": 4
+      },
+      {
+        "paperId": "35a4e81eadf1d95aec01da9a7ef324b74b686fd8",
+        "title": "Efektifitas Penggunaan Laboratorium FOO Dalam Menunjang Peningkatan Pemahaman Taruna OPU Di Akademi Penerbang Indonesia Banyuwangi",
+        "year": 2022,
+        "authors": [{ "name": "U. Wibowo", "authorId": "2088370718" }],
+        "abstract": "Salah satu sarana penunjang kegiatan belajar yang merupakan hal baru dan khusus diharapkan mampu meningkatkan efektifitas pembelajaran yang dilakukan oleh taruna/i Akademi Penerbang Indonesia Banyuwangi yaitu Laboratorium Flight Operations Officer (FOO), pendirian Lab penunjang ini didasari atas kebutuhan yang di syaratkan pada peraturan CASR 142 yaitu sebagai Training Center. Artikel ini menggunakan metode penelitian deskriptif kuantitatif dengan responden yaitu peserta diklat FOO angktan 1 dan 2, serta OPU 1 dengan jumlah responden sebanyak 46 orang. Hasil analisa data menunjukkan bahwa penggunaan Laboratorium Flight Operations Officer (FOO) sebagai sarana praktikum mempunyai pengaruh terhadap capaian prestasi taruna/i, hal ini dapat ditunjukkan dari hasil teknik analisis korelasi sederhana dengan hasil suatu model hubungan yang dinyatakan dalam korelasi Pearson Product Moment dengan hasil sebesar 0.27901, meskipun besaran koefisien korelasi tersebut masih dalam kategori rendah, tetapi ada persepsi positif dalam penggunaan Laboratorium tersebut sehingga dapat disimpulkan bahwa peran penggunaan Laboratorium Flight Operations Officer (FOO) di Akademi Penerbang Indonesia Banyuwangi memiliki peranan yang efektifitas dalam capaian prestasi para taruna/i-nya.",
+        "venue": "SKYHAWK : Jurnal Aviasi Indonesia",
+        "url": "https://www.semanticscholar.org/paper/35a4e81eadf1d95aec01da9a7ef324b74b686fd8",
+        "citationCount": 0,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "ff5f2dee1b5d9326e35e63e96dace9e66b4e33f5",
+        "title": "Emulating the MERINO randomised control trial using data from an observational cohort and trial of rapid diagnostic (BSI-FOO)",
+        "year": 2022,
+        "authors": [
+          { "name": "Rebecca N. Evans", "authorId": "1670240065" },
+          { "name": "J. Harris", "authorId": "50505285" },
+          { "name": "C. Rogers", "authorId": "32679540" },
+          { "name": "A. MacGowan", "authorId": "2074616834" }
+        ],
+        "abstract": "Objective The aim of this study was to emulate the MERINO trial of piperacillin-tazobactam vs meropenem for the definitive treatment of bloodstream infection (BSI) caused by ceftriaxone-nonsusceptible E coli or Klebsiella spp. Methods Data from an observational study of BSI and a randomised controlled trial of a rapid diagnostic in BSI were used to emulate the MERINO trial. The primary outcome of the emulated trial was 28-day mortality after blood culture. Outcomes were compared using logistic regression adjusted for propensity score for emulated intervention. Results Of the 6,371 observational study and RCT participants, 1,968 had a bloodstream infection with E. coli or Klebsiella spp. of which 121 met the eligibility criteria. In the emulated trial, a total of 14/82 patients (17.1%) allocated to piperacillin-tazobactam met the primary outcome compared with 6/39 (15.4%) in the meropenem group (unadjusted odds ratio 1.13 (95% CI 0.40 to 3.21)). After adjustment for propensity score, the odds ratio increased to 1.31 (95% CI 0.40 to 4.26). This difference is in the same direction but of a smaller magnitudethan observed in the MERINO trial, where 30-day mortality was met by 23/187 patients (12.3%) in the piperacillin-tazobactam and 7/191 (3.7%) in the meropenem group (unadjusted odds ratio of 3.69 (95% CI 1.48 to 10.41)). Conclusions The mortality rate in an emulated trial population was more than double the mortality rate in the MERINO trial. The methodology used attempts to address the concern that previous results could be explained by biases such as selection bias and uncontrolled confounding and provides information on how a trial such as the MERINO trial may have performed in the NHS.",
+        "venue": "PLoS ONE",
+        "url": "https://www.semanticscholar.org/paper/ff5f2dee1b5d9326e35e63e96dace9e66b4e33f5",
+        "citationCount": 1,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "ad23fd44e4c10f5bdf87d5852fcb8318d17f804d",
+        "title": "Modelling foo-flow",
+        "year": 2022,
+        "authors": [{ "name": "F. Suttmeier", "authorId": "2443253" }],
+        "abstract": "In this note a heuristically, uniﬁed approach for deriving parabolic and hyperbolic diﬀerential equations is presented, intended to be given to study groups in highschool and undergraduate courses. We describe basic steps in modelling movements of foos, where one can imagine foos to be cars or hot-water-bottles.",
+        "venue": "International Mathematical Forum",
+        "url": "https://www.semanticscholar.org/paper/ad23fd44e4c10f5bdf87d5852fcb8318d17f804d",
+        "citationCount": 0,
+        "referenceCount": 6
+      },
+      {
+        "paperId": "de77b3b669cfdebaa2deb4f11bad4a561f103666",
+        "title": "New Sensorless Vector Control System With High Load Capacity Based on Improved SMO and Improved FOO",
+        "year": 2021,
+        "authors": [
+          { "name": "Wenqi Lu", "authorId": "153022089" },
+          { "name": "Dongyang Zheng", "authorId": "2058381033" },
+          { "name": "Yujun Lu", "authorId": "50028610" },
+          { "name": "K. Lu", "authorId": "145057903" },
+          { "name": "Liang Guo", "authorId": "2110661137" },
+          { "name": "Weican Yan", "authorId": "2117115789" },
+          { "name": "Jian Luo", "authorId": "145363994" }
+        ],
+        "abstract": "In the existing sensorless vector control system of permanent magnet synchronous motor (PMSM), direct differential calculation or phase-locked loop (PLL) control is often used to estimate the rotor speed, but this method has some problems of weak load capacity and slow dynamic response. A new sensorless vector control method based on an improved sliding mode observer (SMO) and improved full-order observer (FOO) is proposed in this paper. The cut-off frequency of the low-pass filter is designed as a function of speed, the back EMF is fed back into the stator current estimation mathematical model, and the adaptive rate of feedback gains coefficient is proposed for improving the traditional SMO. The disturbance feedback matrix is introduced for improving the traditional FOO, and the estimated load torque is feedforward compensated to the given end of the quadrature current. An integrated system of corresponding algorithms is established, a test platform is built. The experimental results show that the speed and load torque estimation performance of the improved observer is better than that of the traditional observer in the process of sudden load change. The sensorless vector control system based on the proposed observer has a high dynamic response, load capacity, and reliability.",
+        "venue": "IEEE Access",
+        "url": "https://www.semanticscholar.org/paper/de77b3b669cfdebaa2deb4f11bad4a561f103666",
+        "citationCount": 11,
+        "referenceCount": 35
+      },
+      {
+        "paperId": "8365d83358d12d717967e04317df041ab7b526a2",
+        "title": "An improved FOO voting scheme using blockchain",
+        "year": 2019,
+        "authors": [
+          { "name": "Yuanjian Zhou", "authorId": "2116568437" },
+          { "name": "Yining Liu", "authorId": "3289574" },
+          { "name": "Chengshun Jiang", "authorId": "2115487466" },
+          { "name": "Shulan Wang", "authorId": "2117018279" }
+        ],
+        "abstract": null,
+        "venue": "International Journal of Information Security",
+        "url": "https://www.semanticscholar.org/paper/8365d83358d12d717967e04317df041ab7b526a2",
+        "citationCount": 23,
+        "referenceCount": 32
+      },
+      {
+        "paperId": "dfc720cb6d37a15936625606d3d765589c9a2318",
+        "title": "Eclecticism in Chinese Modern Calligraphy, Analysis on Foo Yong Kong’s Painting",
+        "year": 2020,
+        "authors": [
+          { "name": "Tjutju Widjaja", "authorId": "148254003" },
+          { "name": "S. Sabana", "authorId": "72134973" },
+          { "name": "I. Adriati", "authorId": "97858068" }
+        ],
+        "abstract": "Foo Yong Kong is a unique artist, in his artistic practice, he mixes the art of calligraphy with the abstract art of expressionism. Chinese calligraphy is a form of Chinese traditional art. Abstract expressionism is one of the idioms of modern art. In modern art discourse, calligraphy is not categorized as fine art. As part of the identity of the Chinese nation for centuries, the existence of Chinese calligraphy art has been experiencing various developments. One phenomenal development is about how calligraphy redefine itself within modern art discourse which has led to a renewal of Chinese modern calligraphy. This study aims to analyze Foo Yong Kong's paintings in the perspective of Chinese modern calligraphy discourse with a focus on aesthetic tendencies in his works. The results show the tendency of eclecticism in Foo Yong Kong's artwork that combines aesthetic elements in calligraphy such as black brush stroke resulting from the effects of using special brushes ( mao bi ) and solid ink ( mo ), ink stone ( yantai ) and paper ( xian zhi ), with the practice of action painting using acrylic paint with contrasting colours. Keywords: Chinese Calligraphy, Abstract Expressionism, Eclecticism, Foo Yong Kong, Modern Chinese Calligraphy DOI : 10.7176/ADS/81-05 Publication date :April 30 th 2020",
+        "venue": "Arts and design studies",
+        "url": "https://www.semanticscholar.org/paper/dfc720cb6d37a15936625606d3d765589c9a2318",
+        "citationCount": 0,
+        "referenceCount": 9
+      },
+      {
+        "paperId": "89f352804e3a5295656e3316259fd9a63dc17bd5",
+        "title": "An Electronic Voting Scheme Based on FOO Protocol",
+        "year": 2020,
+        "authors": [
+          { "name": "Hongquan Pu", "authorId": "2064619190" },
+          { "name": "Z. Cui", "authorId": "2089582046" },
+          { "name": "Ting Liu", "authorId": "2115433702" },
+          { "name": "Jintao Rao", "authorId": "1473565048" }
+        ],
+        "abstract": "Electronic voting has become a hotspot in cryptography application. FOO protocol is a protocol that can be applied to large-scale electronic voting. An electronic voting scheme is proposed based on the FOO protocol. The blank vote and the intermediate institution are introduced into the scheme to generate the only serial number, and the blank vote is used in each phase, introducing the supervising institution to verify the key of bit commitment. By analysis, the scheme can effectively solve the security problems such as vote collision, abstention, anonymity, receipt-freeness, and so on. Compared with other electronic voting protocols, it has better practicability and operability.",
+        "venue": "2020 3rd International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE)",
+        "url": "https://www.semanticscholar.org/paper/89f352804e3a5295656e3316259fd9a63dc17bd5",
+        "citationCount": 0,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "2264aca2924d57651f44626bc2948caa60280f88",
+        "title": "DNS over Foo Discovery Mechanism",
+        "year": 2020,
+        "authors": [{ "name": "D. Migault", "authorId": "1824160" }],
+        "abstract": "This document describes a mechanism that enables a DNS client to\ndiscover other DNS alternatives such as DoT or DoH for one specific\ndomain. This document also extends this discovery mechanism to an\nInternet wide of open resolvers search - though this is expected to be\ndescribed further in a separate document. While search are always\ninitiated by the DNS client, this document also indicates how a\nresolver MAY indicate a DNS client its preference for using\nalternative flavors of transport layer.",
+        "venue": "",
+        "url": "https://www.semanticscholar.org/paper/2264aca2924d57651f44626bc2948caa60280f88",
+        "citationCount": 0,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "15f9ae5a6839eda6535b1a2af4b601e2aa38c0bd",
+        "title": "Foo, Bar, Baz…: The Metasyntactic Variable and the Programming Language Hierarchy",
+        "year": 2019,
+        "authors": [{ "name": "Brian Lennon", "authorId": "48767093" }],
+        "abstract": null,
+        "venue": "Philosophy & Technology",
+        "url": "https://www.semanticscholar.org/paper/15f9ae5a6839eda6535b1a2af4b601e2aa38c0bd",
+        "citationCount": 1,
+        "referenceCount": 53
+      },
+      {
+        "paperId": "9397cc03dc65629e1e337c16aa7d31f4c287a70e",
+        "title": "Genetic, Heritability and Genetic Advance of Progenies Derived from Hybridization of Vanda ‘Adrienne’ × Ascocenda ‘Peggy Foo’ with Vanda malinii × Vanda denisoniana Benson & Rchb.f. in vivo",
+        "year": 2019,
+        "authors": [
+          { "name": "Minangsari Dewanti", "authorId": "2249664936" },
+          { "name": "Suskandari Kartikaningrum", "authorId": "2249664927" },
+          { "name": "Mega Wegadara", "authorId": "2294632334" },
+          { "name": "B. Winarto", "authorId": "6836817" }
+        ],
+        "abstract": "Hybridization is the process on interbreeding between individuals of different species or genetically divergent individuals from the same species to produce new progenies with their uniqueness and differences, involving in Vanda. Aim of this research was to explore genotypic and phenotypic variability, heritability and genetic advance of progenies derived from hybridization of Vanda ‘Adrienne’ × Ascocenda ‘Peggy Foo’ with Vanda malinii × Vanda denisoniana Benson & Rchb.f, and to find best characters used for selection. The experiment was conducted at Segunung Experimental Garden of Indonesian Ornamental Crop Research Institute (IOCRI) on altitude of 1100 m above sea level from June 2013 until December 2016. Thirteen genotypes derived from hybridization of V. ‘Adrienne’ × A. ‘Peggy Foo’ with V. malinii × V. denisoniana of 1A, 2A, 21A, 27A, 50A, 52A, 98A, 101A, 102A, 113A, 116A, 120A, and 120B were used in the study. The experiment was arranged in a Randomized Complete Block Design (RCBD) with three replications. Results of the study indicated that range of genetic variability was varied from 1.2-184.7% with wide genetic variability determined on number of leaves per plant (NLP) up to 26.5% with 184.7% for leaf width (LW) and 24.7% for spike length (SL). Moderate heritability of 25.2% for NLP, 21.0% for LW and 25.2% for SL coupled with high genetic advance percent of mean up to 59.7% for NLP, 939.7% for LW and 33% for SL, reflecting the presence and expression of additive gene action of these traits. The results indicated the importance of these three characters best used as selection criteria for Vanda genotypes.",
+        "venue": "Notulae Scientia Biologicae",
+        "url": "https://www.semanticscholar.org/paper/9397cc03dc65629e1e337c16aa7d31f4c287a70e",
+        "citationCount": 1,
+        "referenceCount": 28
+      },
+      {
+        "paperId": "3bdfe2a271dfd2ccc124d7e591bace6e581f9904",
+        "title": "Dominic Foo (ed.): Chemical Engineering Process Simulation",
+        "year": 2018,
+        "authors": [{ "name": "K. Aviso", "authorId": "3387314" }],
+        "abstract": null,
+        "venue": "Process Integration and Optimization for Sustainability",
+        "url": "https://www.semanticscholar.org/paper/3bdfe2a271dfd2ccc124d7e591bace6e581f9904",
+        "citationCount": 2,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "f2efe4ac725b607b6e1144eced8249f3c1328826",
+        "title": "The Hakka Yong Tau Foo: A Typical Symbol and Identity of Hakka Food Cultural Value in Food-Anthropological Perspective",
+        "year": 2018,
+        "authors": [
+          { "name": "Yang Liao", "authorId": "144409123" },
+          { "name": "Shaodi He", "authorId": "122522111" }
+        ],
+        "abstract": "There is wealth of researches of Hakka food in the origin of Chinese cultural food, the Hakka food diversification, regional needs, Hakka sense, etc. to discuss how and why Hakka Yong Tau Foo affected the lives of Hakka people from historiography and Hakka cultural views. Based on these large number of Hakka literature researches, this article interprets how the Hakka Yong Tau Foo becomes a typical symbol and Hakka cultural identity as basic essential factors of Hakka food culture and Hakka detective value. Thus, the Hakka Yong Tau Foo has become important component in Hakka Food cultural development, and also has drawn the attention of people to Hakka Food. From the Food-anthropological perspective, we could see how Hakka Yong Tau Foo communicates with other food culture in the context of globalization.",
+        "venue": "",
+        "url": "https://www.semanticscholar.org/paper/f2efe4ac725b607b6e1144eced8249f3c1328826",
+        "citationCount": 1,
+        "referenceCount": 24
+      },
+      {
+        "paperId": "9520b1334aeb225fa1399598301bc582b82aa13a",
+        "title": "Self-Aligned Fin-On-Oxide (FOO) FinFETs for Improved SCE Immunity and Multi-VTH Operation on Si Substrate",
+        "year": 2015,
+        "authors": [
+          { "name": "Xiaolong Ma", "authorId": "2109061725" },
+          { "name": "H. Yin", "authorId": "2159695" },
+          { "name": "Peizhen Hong", "authorId": "3091493" },
+          { "name": "Weijia Xu", "authorId": "2110546553" }
+        ],
+        "abstract": "The paper proposed a simple and novel approach to fabricate Fin-On-Oxide (FOO) FinFETs on silicon (Si) substrates for improved electrical characteristics in scaled devices. Based on conventional bulk-Si FinFET integration flow, a special step of a fin notch etching is performed, followed by a process of liner oxidation and isolation-oxide filling and recess. The fin above the notch is physically isolated from the substrate and turns into a self-aligned FOO structure. The fabricated p-type FOO FinFETs have demonstrated excellent short-channel effect (SCE) characteristics with subthreshold slope (SS) of 69 mV/dec and drain-induced barrier lowering (DIBL) of 22 mV/V for a physical gate length (LG) of 27 nm. For 14 nm devices, SS of 86 mV/dec and DIBL of 106 mV/V have been achieved, which are much better than those of the bulk-silicon FinFET counterpart with similar process. Meanwhile, the steady threshold voltage (VTH) shifting by the substrate biasing is realized in the FOO FinFET without performance degradations. The linearity of the VTH on the bias voltage is −6 mV/V. The self-aligned FOO-FinFET with a simple process provides a promising method to improve the SCE immunity as well as provides the multi-VTH operation for the scaled FinFET on Si substrates for future ultra-low power circuit applications. © The Author(s) 2015. Published by ECS. This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 License (CC BY, http://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse of the work in any medium, provided the original work is properly cited. [DOI: 10.1149/2.0071504ssl] All rights reserved.",
+        "venue": "",
+        "url": "https://www.semanticscholar.org/paper/9520b1334aeb225fa1399598301bc582b82aa13a",
+        "citationCount": 9,
+        "referenceCount": 0
+      },
+      {
+        "paperId": "6e07141c0c160babd591dd45b7f7ce1af7b54915",
+        "title": "H 1 foo Has a Pivotal Role in Qualifying Induced Pluripotent Stem Cells",
+        "year": 2016,
+        "authors": [
+          { "name": "Akira Kunitomi", "authorId": "5402890" },
+          { "name": "S. Yuasa", "authorId": "32820282" },
+          { "name": "F. Sugiyama", "authorId": "5412289" },
+          { "name": "Yuki Saito", "authorId": "2111191951" },
+          { "name": "Tomohisa Seki", "authorId": "5086499" },
+          { "name": "D. Kusumoto", "authorId": "3863757" },
+          { "name": "S. Kashimura", "authorId": "5045688" },
+          { "name": "M. Takei", "authorId": "145979672" },
+          { "name": "S. Tohyama", "authorId": "2348101" },
+          { "name": "H. Hashimoto", "authorId": "5451514" },
+          { "name": "Toru Egashira", "authorId": "90212715" },
+          { "name": "Y. Tanimoto", "authorId": "48645835" },
+          { "name": "Saori Mizuno", "authorId": "2052750503" },
+          { "name": "Shoma Tanaka", "authorId": "1585553578" },
+          { "name": "Hironobu Okuno", "authorId": "6279215" },
+          { "name": "K. Yamazawa", "authorId": "39661330" },
+          { "name": "H. Watanabe", "authorId": "2111046680" },
+          { "name": "M. Oda", "authorId": "3920891" },
+          { "name": "R. Kaneda", "authorId": "49272958" },
+          { "name": "Y. Matsuzaki", "authorId": "5251570" },
+          { "name": "T. Nagai", "authorId": "26544511" },
+          { "name": "H. Okano", "authorId": "2238040" },
+          { "name": "K. Yagami", "authorId": "32161435" },
+          { "name": "Mamoru Tanaka", "authorId": "1733341139" },
+          { "name": "K. Fukuda", "authorId": "3196711" }
+        ],
+        "abstract": null,
+        "venue": "",
+        "url": "https://www.semanticscholar.org/paper/6e07141c0c160babd591dd45b7f7ce1af7b54915",
+        "citationCount": 12,
+        "referenceCount": 42
+      }
+    ]
+  }
+}
