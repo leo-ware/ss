@@ -1,6 +1,6 @@
 "use server"
 
-import {search} from "./semanticScholar"
+import { search } from "./semanticScholar"
 import { zfd } from "zod-form-data"
 
 const searchActionValidator = zfd.formData({
@@ -9,7 +9,7 @@ const searchActionValidator = zfd.formData({
     offset: zfd.numeric().optional()
 })
 
-type SearchActionResult = {ok: false, error?: string} | {
+type SearchActionResult = { ok: false, error?: string } | {
     ok: true,
     data: Awaited<ReturnType<typeof search>>,
     _prev?: {
@@ -22,11 +22,10 @@ export const searchFormAction = async (_: any, formData: FormData): Promise<Sear
     try {
         const qObj = searchActionValidator.parse(formData)
         const result = await search(qObj)
-        console.log(JSON.stringify(result))
         if (!result || !result.data) {
             return { ok: false, error: "error fetching data" }
         }
-        return { ok: !result.error, data: result, _prev: { query: qObj.query, next: result.data.next }}
+        return { ok: !result.error, data: result, _prev: { query: qObj.query, next: result.data.next } }
     } catch (e) {
         return { ok: false, error: "error validating request" }
     }

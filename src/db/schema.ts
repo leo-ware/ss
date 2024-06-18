@@ -1,5 +1,6 @@
 import { relations } from 'drizzle-orm'
-import { integer, pgTable, serial, text, primaryKey } from 'drizzle-orm/pg-core'
+import { integer, pgTable, serial, text, primaryKey, date } from 'drizzle-orm/pg-core'
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 
 
 export const users = pgTable('users', {
@@ -14,6 +15,8 @@ export const usersRelations = relations(users, ({ many }) => ({
 
 export type InsertUser = typeof users.$inferInsert;
 export type SelectUser = typeof users.$inferSelect;
+export const insertUserSchema = createInsertSchema(users);
+export const selectUserSchema = createSelectSchema(users);
 
 
 export const projects = pgTable('projects', {
@@ -21,6 +24,8 @@ export const projects = pgTable('projects', {
     name: text('name').notNull(),
     description: text('description'),
     ownerId: integer('user_id'),
+    lastUpdated: date('last_updated').notNull(),
+    createdAt: date('created_at').notNull(),
 })
 
 export const projectsRelations = relations(projects, ({ one, many }) => ({
@@ -29,10 +34,33 @@ export const projectsRelations = relations(projects, ({ one, many }) => ({
         references: [users.id],
     }),
     projectToPaper: many(projectToPaper),
+    searches: many(searches),
 }))
 
 export type InsertProject = typeof projects.$inferInsert;
 export type SelectProject = typeof projects.$inferSelect;
+export const insertProjectSchema = createInsertSchema(projects);
+export const selectProjectSchema = createSelectSchema(projects);
+
+
+export const searches = pgTable('searches', {
+    id: serial('id').primaryKey(),
+    query: text('query').notNull(),
+    createdAt: date('created_at').notNull(),
+    projectId: integer('project_id').notNull(),
+})
+
+export const searchesRelations = relations(searches, ({ one }) => ({
+    project: one(projects, {
+        fields: [searches.projectId],
+        references: [projects.id],
+    }),
+}))
+
+export type InsertSearch = typeof searches.$inferInsert;
+export type SelectSearch = typeof searches.$inferSelect;
+export const insertSearchSchema = createInsertSchema(searches);
+export const selectSearchSchema = createSelectSchema(searches);
 
 
 export const authors = pgTable('authors', {
@@ -46,6 +74,8 @@ export const authorsRelations = relations(authors, ({ many }) => ({
 
 export type InsertAuthor = typeof authors.$inferInsert;
 export type SelectAuthor = typeof authors.$inferSelect;
+export const insertAuthorSchema = createInsertSchema(authors);
+export const selectAuthorSchema = createSelectSchema(authors);
 
 
 export const papers = pgTable('papers', {
@@ -66,6 +96,8 @@ export const papersRelations = relations(papers, ({ many }) => ({
 
 export type InsertPaper = typeof papers.$inferInsert;
 export type SelectPaper = typeof papers.$inferSelect;
+export const insertPaperSchema = createInsertSchema(papers);
+export const selectPaperSchema = createSelectSchema(papers);
 
 
 export const projectToPaper = pgTable(
@@ -90,6 +122,8 @@ export const projectToPaperRelations = relations(projectToPaper, ({ one }) => ({
 
 export type InsertProjectToPaper = typeof projectToPaper.$inferInsert;
 export type SelectProjectToPaper = typeof projectToPaper.$inferSelect;
+export const insertProjectToPaperSchema = createInsertSchema(projectToPaper);
+export const selectProjectToPaperSchema = createSelectSchema(projectToPaper);
 
 
 export const authorToPaper = pgTable(
@@ -114,3 +148,5 @@ export const authorToPaperRelations = relations(authorToPaper, ({ one, many }) =
 
 export type InsertAuthorToPaper = typeof authorToPaper.$inferInsert;
 export type SelectAuthorToPaper = typeof authorToPaper.$inferSelect;
+export const insertAuthorToPaperSchema = createInsertSchema(authorToPaper);
+export const selectAuthorToPaperSchema = createSelectSchema(authorToPaper);

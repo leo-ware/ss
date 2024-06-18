@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,13 +18,27 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={inter.className}>
-                <div className="grid grid-cols-12">
-                    <div className="border-b-2 border-b-black col-span-12 h-16 grid grid-cols-subgrid">
-                        <div className="col-span-10 col-start-2 h-full">
-                            
+                <div className="grid grid-cols-12 grid-rows-8 gap-6 w-screen h-screen">
+                    <div className="border-b-2 border-b-black col-span-12 row-span-1 grid grid-cols-subgrid">
+                        <div className="col-span-10 col-start-2 grid grid-cols-subgrid">
+                            <div className="col-span-2 h-full flex items-center">
+                                <h1>Hello World</h1>
+                            </div>
+
+                            <div className="col-start-8 col-span-3 h-full flex items-center justify-between">
+                                <Link href="/search">
+                                    Search
+                                </Link>
+                                <Link href="/projects">
+                                    Projects
+                                </Link>
+                                <Link href="/profile">
+                                    Profile
+                                </Link>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-span-10 col-start-2 min-h-96 grid grid-cols-subgrid">
+                    <div className="col-span-10 col-start-2 row-span-9 grid grid-cols-subgrid grid-rows-subgrid">
                         {children}
                     </div>
                 </div>
