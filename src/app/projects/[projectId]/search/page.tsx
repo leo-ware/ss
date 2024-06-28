@@ -4,8 +4,8 @@ import { useEffect, useState } from "react"
 import { useFormState } from "react-dom"
 import useSWR from "swr"
 import Link from "next/link"
-import { getProjects, getProject } from "@/api/projects"
-import type { SelectPaper, SelectProject } from "@/db/schema"
+import { getProjects, getProject } from "@/lib/api/projects"
+import type { SelectPaper, SelectProject } from "@/lib/drizzle/schema"
 import PaperWidget, {PaperWidgetType} from "@/components/paperWidget"
 import FilterMenu from "@/components/filterWidget"
 import { last } from "@/utils"
@@ -53,8 +53,10 @@ const SearchPage = ({ params }: { params: { projectId: string }}) => {
 
     return (
         <div className="col-span-10 grid grid-cols-subgrid">
-            <div className="col-span-2 h-full flex flex-row">
+
+            <div className="col-span-2 row-span-1 h-full flex flex-row">
                 <Radio
+                    className="w-32"
                     placeholder="Loading..."
                     initSelected={project.data
                         ? {name: project.data.name, value: project.data.id.toString()}
@@ -70,28 +72,28 @@ const SearchPage = ({ params }: { params: { projectId: string }}) => {
                         }))
                         : []}/>
                 <Link href={`/projects/${projectId.toString}`}>
-                    <div className="w-12 h-12 border border-black rounded">
+                    <div className="ml w-11 h-11 border border-black rounded flex items-center justify-center">
                         <FiHome size={25} width={1}/>
                     </div>
                 </Link>
             </div>
 
-            <div className="flex items-center col-span-6 col-start-3 my-4">
+            <div className="flex items-start row-span-1 col-span-6 col-start-3">
                 <form action={formAction}>
                     <input type="hidden" name="projectId" value={projectId} />
                     <input
-                        className="border border-black rounded w-96 p-2 my-2 focus:outline-none"
+                        className="border border-black rounded w-96 p-2 focus:outline-none"
                         type="text"
                         name="query" />
                     <button
-                        className="border border-black rounded p-2 m-2 focus:outline-none"
+                        className="border border-black rounded p-2 focus:outline-none"
                         type="submit">
                             Search
                     </button>
                 </form>
             </div>
 
-            <div className="col-span-2 col-start-9">
+            <div className="col-span-2 row-span-1 col-start-9">
                 <details>
                     <summary>Saved Papers {`(${savedPapersLocal.length})`}</summary>
                     {savedPapers.map((paper) => (

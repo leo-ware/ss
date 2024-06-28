@@ -1,7 +1,7 @@
 "use client"
 
 import useSWR from "swr"
-import { getProject, updateProjectFormAction } from "@/api/projects"
+import { getProject, updateProjectFormAction } from "@/lib/api/projects"
 import SmoothInput from "@/components/smoothInput"
 import Link from "next/link"
 

@@ -1,16 +1,18 @@
-
 type InputTextType = {
     value?: string
     name?: string
     placeholder?: string
     required?: boolean
     onChange?: React.ChangeEventHandler<HTMLInputElement>
+    type?: string
+    small?: boolean
 }
 
-const InputText = (props: InputTextType) => {
+export default (props: InputTextType) => {
     return (
-        <input className="border border-black p-2 focus:outline-none rounded" type="text" {...props} />
+        <input
+            className={"border border-black focus:outline-none rounded " + (props.small? "p-1": "p-2")}
+            type={props.type || "text"}
+            {...props} />
     )
 }
-
-export default InputText

@@ -1,12 +1,11 @@
 "use client"
 
-import { getProjects, createProjectFormAction, deleteProjectFormAction, createProject } from "@/api/projects"
+import { getProjects, createProjectFormAction, deleteProjectFormAction } from "@/lib/functions/projects"
 import TimeSince from "@/components/timeSince"
 import Link from "next/link"
 import useSWR from "swr"
 import { FiChevronsDown, FiChevronsUp, FiTrash2 } from "react-icons/fi"
-import { SelectProject } from "@/db/schema"
-import { useState } from "react"
+import { SelectProject } from "@/lib/drizzle/schema"
 
 const ProjectWidget = ({ project, mutate }: { project: SelectProject, mutate: () => void }) => {
     // const [open, setOpen] = useState(false)

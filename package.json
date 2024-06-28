@@ -6,15 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+
+    "foo": "FOO=\"bar\" & echo $FOO",
+
+    "gen-types": "supabase gen types typescript --project-id thgfrmfaviuaaywpivji > src/lib/supabase/database.types.ts"
+
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.3",
+    "@supabase/ssr": "^0.3.0",
+    "@supabase/supabase-js": "^2.43.5",
     "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.22.7",
     "drizzle-orm": "^0.31.2",
     "drizzle-zod": "^0.5.1",
     "next": "14.2.3",
     "next-auth": "^4.24.7",
+    "postgres": "^3.4.4",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
@@ -26,7 +38,6 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "drizzle-kit": "^0.22.7",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",

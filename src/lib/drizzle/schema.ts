@@ -1,22 +1,32 @@
 import { relations } from 'drizzle-orm'
-import { integer, pgTable, serial, text, primaryKey, date } from 'drizzle-orm/pg-core'
+import { integer, pgTable, serial, text, primaryKey, date, uuid, pgSchema } from 'drizzle-orm/pg-core'
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 
 
-export const users = pgTable('users', {
-    id: serial('id').primaryKey(),
-    name: text('name').notNull(),
-    email: text('email').notNull().unique(),
+const authUsers = pgSchema('auth').table('users', {
+	id: uuid('id').primaryKey(),
 })
 
-export const usersRelations = relations(users, ({ many }) => ({
+export const profiles = pgTable('profiles', {
+    id: uuid("id").notNull().primaryKey(),
+    firstName: text('firstName'),
+    lastName: text('lastName'),
+    affiliation: text('affiliation'),
+    // imgUrl: text('imgUrl')
+})
+
+export const usersRelations = relations(profiles, ({ many, one }) => ({
     projects: many(projects),
+    authUser: one(profiles, {
+        fields: [profiles.id],
+        references: [authUsers.id]
+    })
 }))
 
-export type InsertUser = typeof users.$inferInsert;
-export type SelectUser = typeof users.$inferSelect;
-export const insertUserSchema = createInsertSchema(users);
-export const selectUserSchema = createSelectSchema(users);
+export type InsertUser = typeof profiles.$inferInsert;
+export type SelectUser = typeof profiles.$inferSelect;
+export const insertUserSchema = createInsertSchema(profiles);
+export const selectUserSchema = createSelectSchema(profiles);
 
 
 export const projects = pgTable('projects', {
@@ -29,9 +39,9 @@ export const projects = pgTable('projects', {
 })
 
 export const projectsRelations = relations(projects, ({ one, many }) => ({
-    owner: one(users, {
+    owner: one(profiles, {
         fields: [projects.ownerId],
-        references: [users.id],
+        references: [profiles.id],
     }),
     projectToPaper: many(projectToPaper),
     searches: many(searches),

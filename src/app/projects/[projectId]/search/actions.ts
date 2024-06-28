@@ -1,8 +1,8 @@
 "use server"
 
-import { addPaperToProject, addSearchToProject } from "@/api/projects"
-import { InsertPaper } from "@/db/schema"
-import { searchFormAction } from "@/ss/actions"
+import { addPaperToProject, addSearchToProject } from "@/lib/functions/projects"
+import { InsertPaper } from "@/lib/drizzle/schema"
+import { searchFormAction } from "@/lib/ss/actions"
 
 export const saveFormHandler = async (formData: FormData) => {
     const projectId = parseInt(formData.get("projectId") as string)

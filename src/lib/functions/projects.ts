@@ -1,7 +1,7 @@
 "use server"
 
-import { db } from "@/db/db"
-import { projects, projectToPaper, papers, searches, InsertProject, insertProjectSchema, InsertPaper } from "@/db/schema"
+import { db } from "@/lib/drizzle/drizzleClient"
+import { projects, projectToPaper, papers, searches, InsertProject, insertProjectSchema, InsertPaper } from "@/lib/drizzle/schema"
 import { coerce_BADCODE, isEmpty } from "@/utils"
 import { eq } from "drizzle-orm"
 
